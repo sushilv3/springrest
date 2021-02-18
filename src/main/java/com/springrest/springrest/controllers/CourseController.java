@@ -16,6 +16,7 @@ import com.springrest.springrest.entities.Course;
 import com.springrest.springrest.services.CourseService;
 
 @RestController
+//Cross origin request share
 @CrossOrigin
 public class CourseController {
 	@Autowired
